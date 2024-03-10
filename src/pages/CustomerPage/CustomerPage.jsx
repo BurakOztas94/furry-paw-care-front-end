@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import "./CustomerPage.style.css"
 import { getCustomers } from "../../api/CustomerService"
 import CustomerCard from "../../components/Customer/CustomerCard/CustomerCard"
+import CustomerAdder from "../../components/Customer/CustomerAdder/CustomerAdder"
 
 const CustomerPage = () => {
     const [customers, setCustomers] = useState([])
@@ -27,9 +28,7 @@ const CustomerPage = () => {
                 </div>
                 
 
-                <div className="add-customer">
-                    add customers
-                </div>
+                <CustomerAdder setCustomers={setCustomers}/>
                 
             </div>
         </div>
