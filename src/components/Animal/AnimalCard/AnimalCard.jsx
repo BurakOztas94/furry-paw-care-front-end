@@ -49,7 +49,7 @@ const AnimalCard = ({ animal, setAnimals }) => {
             <input onChange={handleUserInput} type="text" value={animalInCard.color} placeholder="color" name="color" />
             <input onChange={handleUserInput} type="text" value={animalInCard.dateOfBirth} placeholder="date of birth" name="dateOfBirth" />
 
-            <select onChange={handleSelect} name="customerId" value={animalInCard.customer ? animalInCard.customer.id : null}>
+            <select onChange={handleSelect} name="customerId" value={animalInCard.customer ? animalInCard.customer.id : ""}>
                 <option value="">Select a customer</option>
                 {customers.map(customer => (
                     <option key={customer.id} value={customer.id}>{customer.name}</option>
