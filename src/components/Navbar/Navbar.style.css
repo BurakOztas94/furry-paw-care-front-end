@@ -1,5 +1,26 @@
+
 .navbar {
     display: flex;
     justify-content: center;
     gap: 20px;
+    background-color: #b9d194; 
+    border-radius: 35px; 
+    padding: 10px;
+    margin: 20px auto; 
+    max-width: 1400px;
+    
 }
+
+.navbar a {
+    color: white; 
+    text-decoration: none; 
+    padding: 8px 16px; 
+    border: 3px solid white; 
+    border-radius: 35px; 
+}
+
+.navbar a:hover {
+    background-color: white; 
+    color: #88b04b; 
+}
+
