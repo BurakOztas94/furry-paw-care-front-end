@@ -1,0 +1,24 @@
+.home-page {
+    background: linear-gradient(to bottom, #ffffff, #d0e0b8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    position: relative;
+}
+
+.home-page h1 {
+    font-size: 32px;
+    color: #58352F;
+    margin-bottom: 20px;
+}
+
+.home-page p {
+    font-size: 18px;
+    color: #58352F;
+    color: #555;
+}
+
+
