@@ -19,8 +19,6 @@ const AppointmentAdder = ({setAppointments}) => {
     const handleAppointmentAdd = () => {
         createAppointment(appointmentInAdd).then(data => {
             setAppointments(prev => [...prev, data])
-            console.log(appointmentInAdd)
-            console.log(data)
         })
 
         setAppointmentInAdd(addAppointment)
