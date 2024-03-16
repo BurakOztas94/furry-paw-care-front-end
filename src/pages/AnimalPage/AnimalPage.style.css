@@ -1,0 +1,45 @@
+/* AnimalPage.style.css */
+
+.animal-page {
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #d0e0b8);
+    max-width: 1400px;
+  }
+  .animal-list-container {
+    background-color: #B9D194;
+    border-radius: 35px;
+
+   
+  }  
+  .animal-list {
+    display: grid;
+    max-width: 1400px;
+   }
+
+  .animal-page h2 {
+    margin-top: 2px;
+    border-radius: 35px; /* Rounded corners */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    max-width: 1400px;
+    background-color: #B9D194;
+    color: white;
+  }
+  
+  
+  .animal-list-container h3 {
+    margin-top: 1px;  
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    max-width: 1400px;
+    color: white;
+  }
+
+
+  
+  
+  
