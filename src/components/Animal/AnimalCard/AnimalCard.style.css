@@ -1,0 +1,51 @@
+/* AnimalCard.style.css */
+
+.animal-card {
+    background-color: #58352f;
+    border: 10px solid #B9D194;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 500px; /* Gerektiğinde maksimum genişliği ayarlayın */
+    margin: 0 auto; 
+    border-radius: 35px;
+  }
+  
+  .animal-card input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .animal-card select {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .animal-card select option {
+    color: #333; /* Metin rengi */
+    background-color: white;
+    font-family: Arial, sans-serif; /* Yazı tipi */
+    /* Diğer stillendirme özellikleri buraya eklenebilir */
+  }
+  
+  .animal-card .button-container {
+    display: flex;
+}
+
+.animal-card .button-container button {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
