@@ -1,17 +1,49 @@
 .animal-adder {
-  
+    background-color: #58352f;
+    border: 10px solid #B9D194;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 500px; /* Gerektiğinde maksimum genişliği ayarlayın */
+    margin: 0 auto; 
+    border-radius: 35px;
 }
 
-.h1 {
-    color: #fff; /* Text color */
-    font-size: 24px; /* Font size */
-    text-align: center; /* Center align text */
-    margin-bottom: 10px; /* Bottom margin */
+.animal-adder input[type="text"],
+.animal-adder input[type="date"],
+.animal-adder select {
+    width: 500px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
-.h2 {
-    color: #fff; /* Text color */
-    font-size: 18px; /* Font size */
-    text-align: center; /* Center align text */
-    margin-bottom: 20px; /* Bottom margin */
+.animal-adder {
+    color: white;
+    background-color: #b9d194;
+    margin-top: 20px;
+    max-width: 1400px; /* Maksimum genişlik */
+    margin-left: auto; /* Sola yasla */
+    margin-right: auto; /* Sağa yasla */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* İçeriği dikey olarak ortala */
+    text-align: center; /* Metinleri yatayda ortala */
+}
+
+.animal-adder button {
+    width: 500px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Yeşil */
+    color: white;
+}
+
+
+
+.animal-adder button:hover {
+    opacity: 0.9;
 }
