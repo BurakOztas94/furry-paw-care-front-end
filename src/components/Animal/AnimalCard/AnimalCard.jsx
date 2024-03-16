@@ -55,10 +55,9 @@ const AnimalCard = ({ animal, setAnimals }) => {
                     <option key={customer.id} value={customer.id}>{customer.name}</option>
                 ))}
             </select>
-
-            <div>
-                <button onClick={handleAnimalUpdate}>Update</button>
-                <button onClick={handleAnimalDelete}>Delete</button>
+            <div className = "button-container" >
+             <button onClick={handleAnimalUpdate}>Update</button>
+             <button onClick={handleAnimalDelete}>Delete</button>
             </div>
         </div>
     );
