@@ -2,9 +2,13 @@
 
 .appointment-page {
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
     background: linear-gradient(to bottom, #ffffff, #d0e0b8);
-    max-width: 1400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    
 }
 
 .appointment-page h2 {

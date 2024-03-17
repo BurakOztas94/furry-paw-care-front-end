@@ -1,7 +1,7 @@
 .animal-adder {
    
     border-radius: 10px;
-    padding: 25px;
+    padding: 10px;
     max-width: 500px; 
     margin: 0 auto; 
     border-radius: 35px;
@@ -15,6 +15,8 @@
     flex-direction: column;
     align-items: center; 
     text-align: center; 
+    width: 100vh;
+    max-width: 1400px;
 
 }
 
@@ -23,19 +25,21 @@
 .animal-adder select {
     width: 500px;
     margin-bottom: 10px;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #ccc;
+    background-color: #F3F7ED;
     border-radius: 5px;
     box-sizing: border-box;
+    
 }
 
 
 
 .animal-adder button {
-    width: 500px;
-    padding: 10px 15px;
+    width: 250px;
+    height: 35px;
     border: none;
-    border-radius: 5px;
+    border-radius: 35px;
     cursor: pointer;
     background-color: #a6f5a9; 
     color: black;

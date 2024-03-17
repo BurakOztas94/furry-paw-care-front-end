@@ -1,0 +1,27 @@
+/* ReportPage.style.css */
+
+.report-page {
+    margin: 0 auto;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffffff, #d0e0b8);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+.report-list-container {
+    /* Styles for the container of the report list */
+}
+
+.report-list {
+    /* Styles for the list of reports */
+}
+
+.report-list-container h3 {
+    /* Styles for the heading of the report list */
+}
+
+.report-page h2 {
+    /* Styles for the heading of the report page */
+}

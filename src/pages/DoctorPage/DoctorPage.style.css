@@ -1,0 +1,27 @@
+/* DoctorPage.style.css */
+
+.doctor-page {
+    margin: 0 auto;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffffff, #d0e0b8);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+}
+
+.doctor-list-container {
+    /* Styles for the container of the doctor list */
+}
+
+.doctor-list {
+    /* Styles for the list of doctors */
+}
+
+.doctor-list-container h3 {
+    /* Styles for the heading of the doctor list */
+}
+
+.doctor-page h2 {
+    /* Styles for the heading of the doctor page */
+}
