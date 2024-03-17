@@ -12,12 +12,13 @@
 }
 
 .appointment-page h2 {
-    margin-top: 2px;
+    margin-bottom: 20px; /* Add margin at the bottom to create space */
     border-radius: 35px; /* Rounded corners */
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center;
+    width: 100vh;
     max-width: 1400px;
     background-color: #B9D194;
     color: white;
@@ -33,16 +34,24 @@
 }
 
 .appointment-list-container h3 {
-    margin-top: 20px; 
+    margin-top: 10px; /* Keep the existing margin-top */
+    margin-bottom: 20px; /* Add margin at the bottom to create space */
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center;
     max-width: 1400px;
     color: white;
+    padding: 10px;
+    width: 100vh;
+    max-width: 1400px;
 }
 
 .appointment-list {
+     margin: 0 auto;
     display: grid;
+    max-width: 1400px;
+    padding: 10px;
+    width: 100vh;
     max-width: 1400px;
 }
 

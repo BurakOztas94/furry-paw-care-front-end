@@ -70,10 +70,9 @@ const AppointmentCard = ({ appointment, setAppointments }) => {
             <option key={animal.id} value={animal.id}>{animal.name}</option>
         ))}
     </select>
-
             <div>
-                <button onClick={handleAppointmentUpdate}>Update</button>
-                <button onClick={handleAppointmentDelete}>Delete</button>
+                <div className="update"><button onClick={handleAppointmentUpdate}>Update</button></div>
+                <div className="delete"><button onClick={handleAppointmentDelete}>Delete</button></div>
             </div>
         </div>
     );
