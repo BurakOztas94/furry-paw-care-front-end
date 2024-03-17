@@ -1,0 +1,69 @@
+/* CustomerCard.style.css */
+
+.customer-card {
+    background-color: #D9E6C6;
+    border: 10px solid #B9D194;
+    border-radius: 35px; /* Apply border-radius directly */
+    padding: 25px;
+    max-width: 1400px; /* Set maximum width */
+    margin: 0 auto; 
+}
+
+.customer-card input[type="text"] {
+  width: 20%; 
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.customer-card .customer-update-delete {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.customer-card .customer-update-delete .update {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.customer-card .customer-update-delete .update button {
+    flex: 1;
+  padding: 10px 50px;
+  border: none;
+  background-color: rgb(255, 255, 186);
+  cursor: pointer;
+  margin-right: 10px; /* Space between "Update" and "Delete" buttons */
+  border-radius: 35px;
+}
+
+.customer-card .customer-update-delete .update button:hover {
+    opacity: 1; /* Adjust opacity for hover effect */
+  background-color: yellow; /* Change background color on hover */
+  color: black; /* Change text color on hover */
+}
+
+.customer-card .customer-update-delete .delete {
+    
+}
+
+.customer-card .customer-update-delete .delete button {
+    flex: 1;
+    max-width: 150px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #ffa19a;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.customer-card .customer-update-delete .delete button:hover {
+    opacity: 1; /* Adjust opacity for hover effect */
+    background-color: red; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}

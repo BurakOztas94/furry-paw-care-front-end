@@ -1,0 +1,28 @@
+/* AppointmentCard.style.css */
+
+.appointment-card {
+    background-color: #D9E6C6;
+  border: 10px solid #B9D194;
+  border-radius: 35px; /* Apply border-radius directly */
+  padding: 25px;
+  max-width: 1400px; /* Set maximum width */
+  margin: 0 auto; 
+}
+
+.appointment-card input[type="datetime-local"] {
+    width: 150px; /* Adjust width as needed */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.appointment-card select {
+    width: 200px; /* Override width for select */
+    background-color: #B9D194;
+}
+
+.appointment-card button {
+    /* Styles for the buttons */
+}

@@ -1,11 +1,21 @@
 .animal-adder {
-    background-color: #58352f;
-    border: 10px solid #B9D194;
+   
     border-radius: 10px;
     padding: 25px;
-    max-width: 500px; /* Gerektiğinde maksimum genişliği ayarlayın */
+    max-width: 500px; 
     margin: 0 auto; 
     border-radius: 35px;
+    color: white;
+    background-color: #b9d194;
+    margin-top: 20px;
+    max-width: 1400px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+
 }
 
 .animal-adder input[type="text"],
@@ -19,18 +29,7 @@
     box-sizing: border-box;
 }
 
-.animal-adder {
-    color: white;
-    background-color: #b9d194;
-    margin-top: 20px;
-    max-width: 1400px; /* Maksimum genişlik */
-    margin-left: auto; /* Sola yasla */
-    margin-right: auto; /* Sağa yasla */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* İçeriği dikey olarak ortala */
-    text-align: center; /* Metinleri yatayda ortala */
-}
+
 
 .animal-adder button {
     width: 500px;
@@ -38,12 +37,14 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #4CAF50; /* Yeşil */
-    color: white;
+    background-color: #a6f5a9; 
+    color: black;
 }
 
 
 
 .animal-adder button:hover {
-    opacity: 0.9;
+    opacity: 1;
+    background-color: #4CAF50;
+    color: white;
 }

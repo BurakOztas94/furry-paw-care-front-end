@@ -56,8 +56,8 @@ const AnimalCard = ({ animal, setAnimals }) => {
                 ))}
             </select>
             <div className = "button-container" >
-             <button onClick={handleAnimalUpdate}>Update</button>
-             <button onClick={handleAnimalDelete}>Delete</button>
+                <div className ="update"> <button onClick={handleAnimalUpdate}>Update</button></div>
+                <div className ="delete"> <button onClick={handleAnimalDelete}>Delete</button></div>
             </div>
         </div>
     );

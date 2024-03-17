@@ -1,0 +1,54 @@
+/* CustomerPage.style.css */
+
+.customer-page {
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #d0e0b8);
+    max-width: 1400px;
+   
+}
+
+.customer-page h2 {
+    margin-top: 2px;
+    border-radius: 35px; /* Rounded corners */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    max-width: 1400px;
+    background-color: #B9D194;
+    color: white;
+}
+
+.customer-list-container {
+    background-color: #B9D194;
+    border-radius: 35px;
+    padding: 10px;
+    max-width: 1400px;
+}
+
+.customer-list-container h3 {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    max-width: 1400px;
+    color: white;
+}
+
+.customer-list {
+    display: grid;
+    max-width: 1400px;
+    padding: 10px;
+}
+
+/* Styles for individual customer cards */
+.customer-card {
+    padding: 10px;
+    
+}
+
+/* Styles for the customer adder component */
+.customer-adder {
+    padding: 10px;
+}

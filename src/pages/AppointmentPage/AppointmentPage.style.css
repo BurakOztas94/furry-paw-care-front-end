@@ -1,0 +1,45 @@
+/* AppointmentPage.style.css */
+
+.appointment-page {
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #d0e0b8);
+    max-width: 1400px;
+}
+
+.appointment-page h2 {
+    margin-top: 2px;
+    border-radius: 35px; /* Rounded corners */
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    max-width: 1400px;
+    background-color: #B9D194;
+    color: white;
+}
+
+.appointment-list-container {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    max-width: 1400px;
+    color: white;
+}
+
+.appointment-list-container h3 {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    max-width: 1400px;
+    color: white;
+}
+
+.appointment-list {
+    display: grid;
+    max-width: 1400px;
+}
+
+

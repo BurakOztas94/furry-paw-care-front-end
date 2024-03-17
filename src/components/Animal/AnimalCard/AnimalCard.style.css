@@ -1,51 +1,77 @@
 /* AnimalCard.style.css */
 
 .animal-card {
-    background-color: #58352f;
-    border: 10px solid #B9D194;
-    border-radius: 10px;
-    padding: 25px;
-    max-width: 500px; /* Gerektiğinde maksimum genişliği ayarlayın */
-    margin: 0 auto; 
-    border-radius: 35px;
-  }
-  
-  .animal-card input[type="text"] {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  .animal-card select {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  .animal-card select option {
-    color: #333; /* Metin rengi */
-    background-color: white;
-    font-family: Arial, sans-serif; /* Yazı tipi */
-    /* Diğer stillendirme özellikleri buraya eklenebilir */
-  }
-  
-  .animal-card .button-container {
-    display: flex;
+  background-color: #D9E6C6;
+  border: 10px solid #B9D194;
+  border-radius: 35px; /* Apply border-radius directly */
+  padding: 25px;
+  max-width: 1400px; /* Set maximum width */
+  margin: 0 auto; 
+}
+
+.animal-card input[type="text"],
+.animal-card select {
+  width: 150px; /* Adjust width as needed */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.animal-card select {
+  width: 200px; /* Override width for select */
+  background-color: #B9D194;
+}
+
+.animal-card .button-container {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .animal-card .button-container button {
-    flex: 1;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 35px;
 }
 
+.animal-card .button-container button:last-child {
+  margin-right: 0; /* Remove margin for the last button */
+}
 
+.animal-card .button-container .update button {
+  flex: 1;
+  padding: 10px 50px;
+  border: none;
+  background-color: rgb(255, 255, 186);
+  cursor: pointer;
+  margin-right: 10px; /* Space between "Update" and "Delete" buttons */
+  border-radius: 35px;
+}
+
+.animal-card .button-container .delete button {
+  flex: 1;
+  max-width: 150px;
+  padding: 10px 50px;
+  border: none;
+  background-color: #ffa19a;
+  cursor: pointer;
+  border-radius: 35px;
+}
+
+.animal-card .button-container .delete button:hover {
+  opacity: 1; /* Adjust opacity for hover effect */
+  background-color: red; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.animal-card .button-container .update button:hover {
+  opacity: 1; /* Adjust opacity for hover effect */
+  background-color: yellow; /* Change background color on hover */
+  color: black; /* Change text color on hover */
+}

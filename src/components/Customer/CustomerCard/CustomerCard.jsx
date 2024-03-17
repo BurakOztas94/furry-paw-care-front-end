@@ -34,9 +34,12 @@ const CustomerCard = ({customer, setCustomers}) => {
         <input onChange={handleUserInput} type="text" value={customerInCard.phone} name="phone"/>
 
         <div className="customer-update-delete">
-            <button onClick={handleCustomerUpdate}>Update</button>
-            <button onClick={handleCustomerDelete}>Delete</button>
-        </div>
+            <div className="update"><button onClick={handleCustomerUpdate}>Update</button>
+            </div>
+            <div className="delete"><button onClick={handleCustomerDelete}>Delete</button>
+       </div>
+            
+             </div>
     </div>
   )
 }
