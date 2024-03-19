@@ -15,9 +15,10 @@ const DoctorCard = ({doctor, setDoctors}) => {
 
     const handleDoctorUpdate = () => {
         updateDoctor(doctorInCard).then(data => {
-            setDoctors(prev => [...prev.filter(obj => obj.id !== doctorInCard.id), data])
-        })
-    }
+            setDoctors(prev => prev.map(obj => obj.id === doctorInCard.id ? data : obj));
+        });
+    };
+    
 
     const handleDoctorDelete = () => {
         deleteDoctor(doctorInCard.id).then(() => {

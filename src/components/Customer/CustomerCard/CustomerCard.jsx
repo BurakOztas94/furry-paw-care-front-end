@@ -15,9 +15,10 @@ const CustomerCard = ({customer, setCustomers}) => {
 
     const handleCustomerUpdate = () => {
         updateCustomer(customerInCard).then(data => {
-            setCustomers(prev => [...prev.filter(obj => obj.id !== customerInCard.id), data])
-        })
-    }
+            setCustomers(prev => prev.map(obj => obj.id === customerInCard.id ? data : obj));
+        });
+    };
+    
 
     const handleCustomerDelete = () => {
         deleteCustomer(customerInCard.id).then(() => {

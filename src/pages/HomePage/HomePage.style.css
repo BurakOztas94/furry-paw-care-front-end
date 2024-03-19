@@ -21,7 +21,16 @@
     color: #555;
     align-items: center;
     height: 100vh;
-    width:  100vh;;
+    width:  100vh;
+}
+
+.home-page img{
+    max-width: 80%; /* Ensure images don't exceed their container width */
+    max-height: 100%; /* Ensure images don't exceed their container height */
+    transition: transform 0.3s ease; 
+  
+    
+   
 }
 
 

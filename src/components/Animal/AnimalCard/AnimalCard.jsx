@@ -26,9 +26,10 @@ const AnimalCard = ({ animal, setAnimals }) => {
 
     const handleAnimalUpdate = () => {
         updateAnimal(animalInCard).then(data => {
-            setAnimals(prev => [...prev.filter(obj => obj.id !== animalInCard.id), data]);
+            setAnimals(prev => prev.map(obj => obj.id === animalInCard.id ? data : obj));
         });
     };
+    
 
     const handleAnimalDelete = () => {
         deleteAnimal(animalInCard.id).then(() => {

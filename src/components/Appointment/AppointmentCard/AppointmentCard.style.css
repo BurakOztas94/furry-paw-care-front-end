@@ -1,55 +1,18 @@
 /* AppointmentCard.style.css */
 
 .appointment-card {
-  background-color: #D9E6C6;
-  border: 10px solid #B9D194;
-  border-radius: 35px; 
-  padding: 25px;
-  max-width: 800px; 
-  margin: 0 auto; 
+  
 }
 
 .appointment-card input[type="datetime-local"] {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #D9E6C6;
-  border-radius: 15px;
-  box-sizing: border-box;
+ 
 }
 
 .appointment-card select {
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 10px;
-  border: 1px solid #D9E6C6;
-  border-radius: 15px;
-  box-sizing: border-box;
+  
 }
 
 .appointment-card button {
-  width: 100%;
-  padding: 10px 20px;
-  margin: 5px;
-  background-color: #b9d194;
-  border: none;
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
+  
 }
 
-.appointment-card button:hover {
-  background-color: #a1c778;
-}
-
-.appointment-card .update {
-  padding: 10px 50px;
-  background-color: rgb(255, 255, 186);
-  cursor: pointer;
-  margin-right: 10px; /* Space between "Update" and "Delete" buttons */
-  border-radius: 35px;
-}
-
-.appointment-card .delete {
-  margin-left: 10px;
-}
