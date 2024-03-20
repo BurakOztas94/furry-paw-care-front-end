@@ -6,4 +6,5 @@ Currently, two official plugins are available:
 
 You can see the project below the link.
 
-https://furry-paw-care-front-11q09aapg-burakoztas94s-projects.vercel.app/
+
+https://furry-paw-care-front-end-burakoztas94s-projects.vercel.app/
