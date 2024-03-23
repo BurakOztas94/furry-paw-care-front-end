@@ -33,3 +33,15 @@ export const updateVaccine = async (vaccine) => {
 
     return data;
 };
+
+
+
+export const filterVaccinesByAnimalName = async (animalName) => {
+    const { data } = await axios.get(
+        import.meta.env.VITE_APP_BASE_URL + `vaccines/filter-by-animal-name/${animalName}`
+    );
+
+    return data;
+};
+
+

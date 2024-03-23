@@ -33,3 +33,19 @@ export const updateAnimal = async (animal) => {
 
     return data;
 };
+
+export const filterAnimalsByName = async (name) => {
+    const { data } = await axios.get(
+        import.meta.env.VITE_APP_BASE_URL + `animals/filter-by-name/${name}`
+    );
+
+    return data;
+};
+
+export const filterAnimalsByCustomerName = async (customerName) => {
+    const { data } = await axios.get(
+        import.meta.env.VITE_APP_BASE_URL + `animals/filter-by-customer-name/${customerName}`
+    );
+
+    return data;
+};

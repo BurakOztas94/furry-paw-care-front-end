@@ -13,6 +13,8 @@ const CustomerCard = ({customer, setCustomers}) => {
         setCustomerInCard({...customerInCard, [event.target.name]: event.target.value})
     }
 
+    
+
     const handleCustomerUpdate = () => {
         updateCustomer(customerInCard).then(data => {
             setCustomers(prev => prev.map(obj => obj.id === customerInCard.id ? data : obj));
@@ -27,6 +29,8 @@ const CustomerCard = ({customer, setCustomers}) => {
     }
 
   return (
+
+
     <div className="customer-card">
         <input onChange={handleUserInput} type="text" value={customerInCard.email} name="email"/>
         <input onChange={handleUserInput} type="text" value={customerInCard.name} name="name"/>
