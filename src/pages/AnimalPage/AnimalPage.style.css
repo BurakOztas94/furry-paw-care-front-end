@@ -26,6 +26,7 @@
   margin: 0 auto;
   max-width: 100vh; /* Adjusted to match parent container */
   width: 100vh; 
+  text-align: center;
 }
 
 .animal-page h2 {
@@ -52,3 +53,27 @@
   padding: 10px;
   width: 100%;
 }
+.animal-list-container button {
+ 
+
+  background-color: #007bff;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px; 
+}
+
+.animal-list-container button:hover {
+  background-color: #0056b3; 
+}
+
+.animal-list-container input,
+.animal-list-container button {
+  padding: 10px 16px;
+  margin-right: 25px;
+  border-radius: 35px;
+  
+}
+
+

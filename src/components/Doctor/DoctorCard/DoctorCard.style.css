@@ -1,0 +1,64 @@
+/* DoctorCard.style.css */
+
+.doctor-card {
+    background-color: #D9E6C6;
+    border: 10px solid #B9D194;
+    border-radius: 35px; 
+    padding: 25px;
+    max-width: 800px; 
+    width: 100vh;
+    margin: 0 auto; 
+  }
+  
+  .doctor-card input,
+  .doctor-card select {
+     
+    margin-bottom: 10px; /* Add a 10px space between each input/select element */
+    padding: 10px;
+    border: 2px solid #D9E6C6;
+    border-radius: 15px;
+    box-sizing: border-box;
+  }
+  
+  .doctor-card select {
+     /* Override width for select */
+    background-color: #F3F7ED;
+  }
+  
+  .doctor-card .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Add margin to separate buttons from other elements */
+  }
+  
+  .doctor-card .button-container button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 35px;
+  }
+  
+  .doctor-card .button-container button:last-child {
+    margin-left: 10px; /* Add margin between the buttons */
+  }
+  
+  .doctor-card .button-container .update button {
+    background-color: rgb(255, 255, 186);
+  }
+  
+  .doctor-card .button-container .delete button {
+    background-color: #ffa19a;
+  }
+  
+  .doctor-card .button-container .delete button:hover {
+    opacity: 1; /* Adjust opacity for hover effect */
+    background-color: red; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+  }
+  
+  .doctor-card .button-container .update button:hover {
+    opacity: 1; /* Adjust opacity for hover effect */
+    background-color: yellow; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+  }
+  

@@ -7,21 +7,44 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Cente
+    align-items: center; 
 }
 
 .vaccine-list-container {
-    /* Styles for the container of the vaccine list */
+    background-color: #B9D194;
+    border-radius: 35px;
+    padding: 10px; /* Adjusted padding 
+    margin: 0 auto;
+    max-width: 1400px; /* Adjusted to match parent container */
+    width: 100vh;
+    text-align: center;
 }
 
 .vaccine-list {
-    /* Styles for the list of vaccines */
+    /* Add styles for the list of vaccines if needed */
 }
 
 .vaccine-list-container h3 {
-    /* Styles for the heading of the vaccine list */
+    margin-top: 10px; /* Keep the existing margin-top */
+    margin-bottom: 20px; /* Add margin at the bottom to create space */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    max-width: 1400px;
+    color: white;
+    padding: 10px;
+    width: 100vh;
 }
 
 .vaccine-page h2 {
-    /* Styles for the heading of the vaccine page */
+    margin-bottom: 20px; /* Add margin at the bottom to create space */
+    border-radius: 35px; /* Rounded corners */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    width: 100vh;
+    max-width: 1400px;
+    background-color: #B9D194;
+    color: white;
 }

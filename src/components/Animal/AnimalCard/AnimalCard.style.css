@@ -69,7 +69,6 @@
   border: none;
   background-color: #ffa19a;
   cursor: pointer;
-  border-radius: 35px;
 }
 
 .animal-card .button-container .delete button:hover {

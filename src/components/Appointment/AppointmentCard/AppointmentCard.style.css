@@ -1,18 +1,63 @@
-/* AppointmentCard.style.css */
-
 .appointment-card {
+   width: 50%;
+  margin-left: 25%;
+   
+  }
   
-}
-
-.appointment-card input[type="datetime-local"] {
- 
-}
-
-.appointment-card select {
   
-}
-
-.appointment-card button {
+  .appointment-card input,
+  .appointment-card select {
+    /* Add your styles for the input fields and select elements here */
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 35px;
+    align-items: center;
+    width: 25%;
+    margin-top: 10px;
+  }
   
+  .appointment-card select {
+    /* Additional styles for select elements */
+    width: 100%; /* Make select elements fill the width */
+    border-radius: 35px;
+  }
+  
+  .appointment-card .button-container {
+    /* Add your styles for the container of update and delete buttons here */
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 10px; /* Add margin to separate buttons from other elements */
+    
+  }
+  
+  .appointment-card .update button {
+    /* Add your styles for the update button here */
+    padding: 10px 50px;
+    border: none;
+    background-color: rgb(255, 255, 186);
+    cursor: pointer;
+    margin-right: 10px; /* Space between "Update" and "Delete" buttons */
+    border-radius: 35px;
 }
 
+.appointment-card .update button:hover {
+    opacity: 1; /* Adjust opacity for hover effect */
+    background-color: yellow; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+.appointment-card .delete button {
+    /* Add your styles for the delete button here */
+    padding: 10px 50px;
+    border: none;
+    background-color: #ffa19a;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.appointment-card .delete button:hover {
+    opacity: 1; /* Adjust opacity for hover effect */
+    background-color: red; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}

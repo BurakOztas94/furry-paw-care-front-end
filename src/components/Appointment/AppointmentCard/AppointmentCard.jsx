@@ -57,25 +57,27 @@ const AppointmentCard = ({ appointment, setAppointments }) => {
         <div className="appointment-card">
             <input onChange={handleUserInput} type="datetime-local" value={appointmentInCard.appointmentDate} placeholder="Appointment Date" name="appointmentDate" />
     
-    <select onChange={handleDoctorSelect} name="doctorId" value={appointmentInCard.doctor ? appointmentInCard.doctor.id : ""}>
-        <option value="">Select a doctor</option>
-        {doctors.map(doctor => (
-            <option key={doctor.id} value={doctor.id}>{doctor.name}</option>
-        ))}
-    </select>
-
-    <select onChange={handleAnimalSelect} name="animalId" value={appointmentInCard.animal ? appointmentInCard.animal.id : ""}>
-        <option value="">Select an animal</option>
-        {animals.map(animal => (
-            <option key={animal.id} value={animal.id}>{animal.name}</option>
-        ))}
-    </select>
-            <div>
+            <select onChange={handleDoctorSelect} name="doctorId" value={appointmentInCard.doctor ? appointmentInCard.doctor.id : ""}>
+                <option value="">Select a doctor</option>
+                {doctors.map(doctor => (
+                    <option key={doctor.id} value={doctor.id}>{doctor.name}</option>
+                ))}
+            </select>
+    
+            <select onChange={handleAnimalSelect} name="animalId" value={appointmentInCard.animal ? appointmentInCard.animal.id : ""}>
+                <option value="">Select an animal</option>
+                {animals.map(animal => (
+                    <option key={animal.id} value={animal.id}>{animal.name}</option>
+                ))}
+            </select>
+            
+            <div className="button-container">
                 <div className="update"><button onClick={handleAppointmentUpdate}>Update</button></div>
                 <div className="delete"><button onClick={handleAppointmentDelete}>Delete</button></div>
             </div>
         </div>
     );
+    
 };
 
 export default AppointmentCard;

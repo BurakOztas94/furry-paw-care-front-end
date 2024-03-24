@@ -1,0 +1,81 @@
+/* ReportCard.style.css */
+
+.report-card {
+    display: flexbox;
+    background-color: #D9E6C6;
+    border: 10px solid #B9D194;
+    border-radius: 35px; 
+    padding: 25px;
+    max-width: 800px; 
+    width: 100vh;
+    margin: 0 auto; 
+}
+
+.report-card input[type="text"],
+.report-card input[type="number"],
+.report-card select {
+
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #D9E6C6;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.report-card select {
+    background-color: #F3F7ED;
+}
+
+.report-card .button-container {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100vh;
+}
+
+.report-card .button-container button {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 35px;
+}
+
+.report-card .button-container button:last-child {
+    margin-right: 0;
+}
+
+.report-card .button-container .update button {
+    flex: 1;
+    padding: 10px 50px;
+    border: none;
+    background-color: rgb(255, 255, 186);
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 35px;
+}
+
+.report-card .button-container .delete button {
+    flex: 1;
+    max-width: 150px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #ffa19a;
+    cursor: pointer;
+    border-radius: 35px;
+}
+
+.report-card .button-container .delete button:hover {
+    opacity: 1;
+    background-color: red;
+    color: white;
+}
+
+.report-card .button-container .update button:hover {
+    opacity: 1;
+    background-color: yellow;
+    color: black;
+}

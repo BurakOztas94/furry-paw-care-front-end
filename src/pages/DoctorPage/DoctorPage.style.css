@@ -1,5 +1,3 @@
-/* DoctorPage.style.css */
-
 .doctor-page {
     margin: 0 auto;
     padding: 10px;
@@ -8,20 +6,45 @@
     display: flex;
     flex-direction: column;
     align-items: center; /* Center horizontally */
-}
+  }
+  
+  .doctor-list-container {
+    background-color: #B9D194;
+    border-radius: 35px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 100vh; /* Adjusted to match parent container */
+    width: 100vh; 
+    text-align: center;
+  }
+  
 
-.doctor-list-container {
-    /* Styles for the container of the doctor list */
-}
-
-.doctor-list {
-    /* Styles for the list of doctors */
-}
-
-.doctor-list-container h3 {
-    /* Styles for the heading of the doctor list */
-}
-
-.doctor-page h2 {
-    /* Styles for the heading of the doctor page */
-}
+  .doctor-list-container h3 {
+    margin-top: 10px; /* Keep the existing margin-top */
+    margin-bottom: 20px; /* Add margin at the bottom to create space */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    max-width: 1400px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .doctor-page h2 {
+    margin-bottom: 20px; /* Add margin at the bottom to create space */
+    border-radius: 35px; /* Rounded corners */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    width: 100vh;
+    max-width: 1400px;
+    background-color: #B9D194;
+    color: white;
+  }
+  
+  
+  
+  
+  

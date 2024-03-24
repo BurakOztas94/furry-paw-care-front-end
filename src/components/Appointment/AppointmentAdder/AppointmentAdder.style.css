@@ -1,26 +1,45 @@
-/* AppointmentAdder.style.css */
-
 .appointment-adder {
- 
-}
+    width: 50%; /* Set the width of the appointment adder */
+    margin: 0 auto; /* Center the appointment adder horizontally */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; 
+  }
+  
+  .appointment-adder h3 {
+    text-align: center;
+  }
+  
+  
 
-.appointment-adder h3 {
-    /* Styles for the heading */
-}
-
-.appointment-adder input[type="text"],
-.appointment-adder input[type="datetime-local"] {
-   
-}
-
-.appointment-adder select {
-   
-}
-
-.appointment-adder button {
-    
-}
-
-.appointment-adder button:hover {
-    
-}
+  .appointment-adder input{
+    /* Add your styles for the datetime-local input fields here */
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 35px;   
+    width: 25%; /* Set width to fill container */
+  }
+  
+  .appointment-adder select {
+    /* Add your styles for the select elements here */
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 2px solid #B9D194; /* Adjust border properties */
+    border-radius: 35px;
+    width: 100%; /* Set width to fill container */
+  }
+  .appointment-adder button {
+    /* Add your styles for the button here */
+    padding: 10px 50px;
+    border: none;
+    background-color: #A6F5A9;
+    cursor: pointer;
+    border-radius: 35px;
+  }
+  
+  .appointment-adder button:hover {
+    opacity: 1; /* Adjust opacity for hover effect */
+    background-color: #4CAF50; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+  }
+  

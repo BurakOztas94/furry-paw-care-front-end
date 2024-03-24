@@ -35,9 +35,9 @@ const DoctorCard = ({doctor, setDoctors}) => {
         <input onChange={handleUserInput} type="text" value={doctorInCard.phone} name="phone"/>
 
         <div className="doctor-update-delete">
-            <button onClick={handleDoctorUpdate}>Update</button>
-            <button onClick={handleDoctorDelete}>Delete</button>
-        </div>
+    <button className="update-button" onClick={handleDoctorUpdate}>Update</button>
+    <button className="delete-button" onClick={handleDoctorDelete}>Delete</button>
+</div>
     </div>
   )
 }

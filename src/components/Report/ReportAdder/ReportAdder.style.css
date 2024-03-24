@@ -1,0 +1,45 @@
+/* ReportAdder.style.css */
+
+.report-adder {
+   
+    display: flexbox;
+    background-color: #D9E6C6;
+    border: 10px solid #B9D194;
+    border-radius: 35px; 
+    padding: 25px;
+    max-width: 800px; 
+    width: 100vh;
+    margin: 0 auto; 
+}
+
+.report-adder input,
+.report-adder select {
+   margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #D9E6C6;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.report-adder select {
+    background-color: #F3F7ED;
+}
+
+.report-adder button {
+    width: fit-content;
+    padding: 15px 30px; /* Increased padding for a larger button */
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 35px;
+    text-align: center;
+    background-color: #a6f5a9;
+    display: block; /* Ensure the button takes up the full width */
+}
+
+.report-adder button:hover {
+    background-color: #4CAF50; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
